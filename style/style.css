@@ -52,7 +52,7 @@ instagram-continue {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 110%;
     padding: 1.3rem 0;
     border: 1px solid lightgray
 }
@@ -116,11 +116,12 @@ instagram-logout {
     background-image: url(/img/play.jpg);
 }
 
-@media (max-width: 1024px) {
+@media(max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
     }
-    @media (max-width: 650px) {
+}
+    @media(max-width: 650px) {
         body {
             background-color: #ffffff;
         }
@@ -138,4 +139,3 @@ instagram-logout {
         }
     }
     
-}
